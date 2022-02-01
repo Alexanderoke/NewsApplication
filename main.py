@@ -19,11 +19,11 @@ def index():
   for i in range(len(top_articles)):
     main_article=top_articles[i]
 
-    news.apppend(main_article['title'])
+    news.append(main_article['title'])
     desc.append(main_article['description'])
     img.append(main_article['urlToImage'])
     publish_date.append(main_article['publishedAt'])
-    url.append(main_article['"url'])
+    url.append(main_article['url'])
 
     contents= zip(news,desc,img,publish_date,url)
 
