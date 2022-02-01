@@ -23,6 +23,7 @@ def index():
     desc.append(main_article['description'])
     img.append(main_article['urlToImage'])
     publish_date.append(main_article['publishedAt'])
+    url.append(main_article['"url'])
 
 
 
