@@ -14,6 +14,7 @@ def index():
   img=[]
   url=[]
   desc=[]
+  publish_date=[]
 
   for i in range(len(top_articles)):
     main_article=top_articles[i]
@@ -21,6 +22,7 @@ def index():
     news.apppend(main_article['title'])
     desc.append(main_article['description'])
     img.append(main_article['urlToImage'])
+
 
 
     return render_template('index.html')
