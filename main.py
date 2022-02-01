@@ -22,6 +22,7 @@ def index():
     news.apppend(main_article['title'])
     desc.append(main_article['description'])
     img.append(main_article['urlToImage'])
+    publish_date.append(main_article['publishedAt'])
 
 
 
