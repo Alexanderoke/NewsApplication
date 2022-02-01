@@ -20,6 +20,7 @@ def index():
 
     news.apppend(main_article['title'])
     desc.append(main_article['description'])
+    img.append(main_article['urlToImage'])
 
 
     return render_template('index.html')
