@@ -19,7 +19,8 @@ def index():
     main_article=top_articles[i]
 
     news.apppend(main_article['title'])
-    
+    desc.append(main_article['description'])
+
 
     return render_template('index.html')
 
