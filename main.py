@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route("/")
 def index():
   newsapi = NewsApiClient(api_key="eee9e812d2274500b4bb312f3a572be0")
-  top_headlines= newsapi.get_top_headlines(sources='the-verge')
+  top_headlines= newsapi.get_top_headlines(sources='bbc-news')
 
   top_articles= top_headlines['articles']
 
