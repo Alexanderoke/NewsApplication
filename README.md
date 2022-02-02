@@ -1,14 +1,11 @@
 # News Application
 #### News App to preview news articles online, 02/2022
-#### By **{List of contributors}**
+#### By **Alexander oke**
 ## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+The news web app is meant for users to get their daily dose of news digitaly from anywhere, the users can access news and top headlines from all over the world.
 ## Setup/Installation Requirements
-* Clone the repo {git clone https://github.com/jonnygovish/cookie-recipe.git}
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
+* Clone the repo {git clone https://github.com/Alexanderoke/NewsApplication.git
+* run the web app on a browser of your choice.
 {Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
 ## Live link
 ## Known Bugs
