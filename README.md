@@ -6,7 +6,7 @@ The news web app is meant for users to get their daily dose of news digitaly fro
 ## Setup/Installation Requirements
 * Clone the repo {git clone https://github.com/Alexanderoke/NewsApplication.git
 * run the web app on a browser of your choice.
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
+No need of servers or any dependencies to run the app.
 ## Live link
 ## Known Bugs
 {Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
