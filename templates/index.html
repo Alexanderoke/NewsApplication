@@ -7,16 +7,41 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        {% for title,desc,img,publish_date,url in contents %}
-        <a href="{{url}}"><img height="300" width="300" src="{{img}}"></a>
-
-
-        {% endfor %}
-      </div>
-    </div>
-  </div>
+  
+        <h1>Top Headlines</h1>
+      
+          {% for title, desc, img, publish_date, url in contents %}        
+          <div class="wrapper">
+            <div class="item">
+              
+             <a href="{{url}}"><img src="{{img}}"></a>
+            
+            </div>
+            <div class="content"><a href="{{url}}"><h2>{{title}}</h2></a></div>
+            <div class="content"><a href="{{url}}"><p>{{desc}}</p></a></div>
+            <div class="content"><p>{{publish_date}}</p></div>
+            
+            
+          </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+          {% endfor %}
+      </ul>
+      <h3>Other news</h3>
+      {% for title, desc, img, publish_date, url in all %}        
+          <div class="wrapper">
+            <div class="item">
+              
+             <a href="{{url}}"><img src="{{img}}"></a>
+            
+            </div>
+            <div class="content"><a href="{{url}}"><h2>{{title}}</h2></a></div>
+            <div class="content"><a href="{{url}}"><p>{{desc}}</p></a></div>
+            <div class="content"><p>{{publish_date}}</p></div>
+            
+            
+          </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+          {% endfor %}
+      
 </body>
 </html>
