@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+from app import templates
 from newsapi import NewsApiClient
 import config
 app = Flask(__name__)
