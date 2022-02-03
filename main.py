@@ -1,7 +1,6 @@
 from flask import Flask, render_template
-from app import templates
+
 from newsapi import NewsApiClient
-import config
 app = Flask(__name__)
 
 @app.route("/")
@@ -56,7 +55,6 @@ def index():
   return render_template('index.html',contents=contents,all=all)
 
 
-  # return render_template('index.html')
 
   if __name__=='__main__':
    app.run(debug=True)
