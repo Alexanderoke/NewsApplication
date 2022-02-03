@@ -7,7 +7,7 @@ The news web app is meant for users to get their daily dose of news digitaly fro
 * Clone the repo {git clone https://github.com/Alexanderoke/NewsApplication.git
 * run the web app on a browser of your choice.
 No need of servers or any dependencies to run the app.
-## Live link
+## https://newsapplicationoke.herokuapp.com/
 ## Known Bugs
 The news app provides different news articles though from one source.
 ## Technologies Used
