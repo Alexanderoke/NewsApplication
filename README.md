@@ -18,4 +18,4 @@ The news app provides different news articles though from one source.
 You can reach me via github @alexanderoke.
 ### License
 * [MIT](LICENSE) license
-Copyright (c) {year} **{List of contributors or company name}**
+Copyright (c) {2022} **{Alexander Oke}**
